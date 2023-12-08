@@ -33,8 +33,17 @@ public class AfficherCompte {
 			            }
 			            // lets print Comptes list information
 			           // compteList.forEach( compte ->{ System.out.println(compte.toString()) ;});
+			            System.out.println("Lise des Comptes");
+			            System.out.println("****************************************");
 			            System.out.println(compteList);
-
+			            System.out.println("Lise des Comptes Courants");
+			            System.out.println("***********************************");
+			            for (CompteBancaire cb : compteList)
+			            {
+			            	if(cb.getTypeCompte().equals("Courant")){
+			            		System.out.println(cb);
+			            	}
+			            }
 			        } catch (Exception e) {
 			            e.printStackTrace();
 			        }

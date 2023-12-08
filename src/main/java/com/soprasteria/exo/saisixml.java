@@ -21,7 +21,7 @@ public class saisixml {
 //		System.out.println("**************");
 //		System.out.println(newAccount(scanner,"Epargne"));
 		CompteBancaire cbCourant = newAccount(scanner,"Courant");
-		CompteBancaire cbEpargne = newAccount(scanner,"Courant");
+		CompteBancaire cbEpargne = newAccount(scanner,"Epargne");
 		try {
 			Document doc = new Document();
 			doc.setRootElement(new Element("CompteBanacaire"));
