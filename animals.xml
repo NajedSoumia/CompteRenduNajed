@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animal>
+  <Animal>
+    <nom>canari</nom>
+    <espece>oiseau</espece>
+    <age>2</age>
+    <poids>0.2</poids>
+  </Animal>
+  <Animal>
+    <nom>rod</nom>
+    <espece>chien</espece>
+    <age>2</age>
+    <poids>12.0</poids>
+  </Animal>
+</Animal>

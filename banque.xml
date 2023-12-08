@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompteBanacaire>
+  <CompteBanacaire>
+    <numero>123</numero>
+    <propriétaire>soumia</propriétaire>
+    <solde>5201.0</solde>
+    <dateCréation>2023-12-08</dateCréation>
+    <type>Epargne</type>
+  </CompteBanacaire>
+  <CompteBanacaire>
+    <numero>89</numero>
+    <propriétaire>abcd</propriétaire>
+    <solde>5210.0</solde>
+    <dateCréation>2023-12-08</dateCréation>
+    <type>Courant</type>
+  </CompteBanacaire>
+</CompteBanacaire>
